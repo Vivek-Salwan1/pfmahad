@@ -1,38 +1,516 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: rgb(232 227 227 / 39%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Darker+Grotesque:wght@300..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Italianno&family=League+Spartan:wght@100..900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.section1 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 700px;
+  /* margin-bottom: -77px; */
+  /* background: linear-gradient(to right, rgb(198, 209, 218), rgba(0, 225, 240, 1), rgb(198, 209, 218)); */
+  background-image: url('./blur.png');
+}
+
+.newsBar {
+  text-align: center;
+  font-family: "Istok Web", sans-serif;
+}
+
+.header {
+  width: 95%;
+
+  height: 80px;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+}
+
+.logoSection {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.fName {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid firebrick; */
+}
+
+.fName h3 {
+  font-family: "Darker Grotesque";
+}
+
+.fName p {
+  font-family: "Italianno", 'cursive';
+}
+
+.navBar {
+  width: 60%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  /* border: 1px solid black; */
+  padding-left: 28px;
+
+}
+
+.fName p {
+  font-size: small;
+  margin-left: 23px;
+
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginSection{
+  width: 10%;
+  height: 100%;
+}
+.loginSection img{
+  width: 25px;
+  height: 25px;
+}
+/*  Trophy Section */
+
+.tophySection {
+  /* border: 1px solid hotpink; */
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  margin-top: -60px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fSection {
+  width: 37.5%;
+  height: 100%;
+  /* border: 2px solid black; */
+  right: -390px;
+  z-index: 0;
+  position: relative;
+  animation: slideFromMiddleToLeft 1.5s ease-out forwards;
+
+}
+
+@keyframes slideFromMiddleToLeft {
+  from {
+    right: -390px;
+    /* Start from behind the middle box */
+  }
+
+  to {
+    right: 0px;
+    /* Move to the left */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fData {
+  /* border: 1px solid red; */
+  top: 17%;
+  position: relative;
+}
+
+.fData h1 {
+  text-align: right;
+  font-size: 5rem;
+}
+
+.fData h2 {
+  text-align: right;
+}
+
+.fData .for {
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.fData .year {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+}
+
+
+.fData .the {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fData .best {
+  font-weight: bolder;
+  font-family: "Montserrat";
+}
+
+.sSection {
+  width: 25%;
+  height: 100%;
+  /* border: 2px solid black; */
+  z-index: 1000;
+
+}
+
+.tSection {
+  width: 37.5%;
+  height: 100%;
+  /* border: 2px solid black; */
+  left: -390px;
+  z-index: 0;
+  position: relative;
+
+  animation: slideFromMiddleToRight 1.5s ease-out forwards;
+}
+
+@keyframes slideFromMiddleToRight {
+  from {
+    left: -390px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+.tData {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  top: 40%;
+  position: relative;
+  /* border: 1px solid hotpink; */
+}
+
+.tData h1 {
+  font-weight: bolder;
+
+}
+
+.tData .st {
+  font-size: 5rem;
+  font-family: "Montserrat";
+}
+
+.tData .aw {
+  font-size: 5rem;
+  font-family: "Montserrat";
+}
+
+.tData .mh {
+  font-size: 2.1rem;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.tPart1 {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+
+.sSection video {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* stage */
+
+.stage {
+  width: 80%;
+  height: 130px;
+  border: 1px solid rgba(0, 225, 240, 1);
+  margin: auto;
+  background-image: url('./stage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -75px;
+
+
+}
+
+.stageContent {
+  width: 70%;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+  font: bolder;
+  font-size: 1.5rem;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600px;
+  margin-top: 30px;
+}
+
+.stageContent {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+
+
+/*   SPONSERS  */
+
+.sponsers {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  /* border: 1px solid black; */
+  background: url(../src//images/SponserPatti.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sponsers h1{
+  font-style: normal;
+  text-align: center;
+  font-size: 4.5rem;
+  color: white;
+
+}
+
+/* shortPara */
+
+.shortPara{
+  width: 80%;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background: white;
+  font-family: "Istok Web", sans-serif;
+
+
+}
+.shortPara button{
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-family: "Istok Web", sans-serif;
+}
+
+/* feedbackQ */
+
+.feedbackQ{
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background: url(../src/images/feedbackBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid black; */
+  font-family: "Istok Web", sans-serif;
+}
+
+.queAnsSection{
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgb(250 250 250 / 73%);
+  border-radius: 20px;
+  top: 40px;
+  padding: 20px 20px;
+
+
+}
+
+.queAns{
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+/* GALLERY */
+
+.gAll{
+  background: rgba(221, 251, 255, 1);
+  box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallerySection{
+
+  width: 80%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+
+
+
+}
+
+.gallerySection .gName{
+  text-align: center;
+  font-family: bak;
+  font-family: "Bakbak One", sans-serif;
+  font-size: 3.4rem;
+  letter-spacing: 25px;
+}
+
+.gCards{
+  width: 90%;
+  height: auto;
+  padding: 10px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.gCard{
+  width: 230px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.gCardPart1{
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.gCardPart1 img{
+  width: 96%;
+  height: 96%;
+  margin-top: 7px;
+  border-bottom: 1px solid black;
+}
+.gCardPart2{
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid black; */
+
+}
+
+.gCardPart2 p{
+  text-align: center;
+}
+
+
+/* FOOTER */
+
+.footerSection{
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid white; */
+  background: rgba(22, 37, 52, 1);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+
+}
+.footerSection .fPart1{
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid white; */
+  margin: auto;
+  display: flex;
+
+}
+
+.fPart1 .fCol1{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.fCol1Data{
+  /* border: 1px solid white; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fPart1 .fCol2{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.fCol2Data{
+  /* border: 1px solid white; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+.footerSection .fPart2{
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid white; */
+  margin: auto;
+
+}
+
+.fPart2Data{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.fPart2Data img{
+  width: 150px;
+  height: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.socialMLinks{
+  display: flex;
+  gap: 30px;
 }
+
+.fSlogan{
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+#footername{
+  font-family: "Darker Grotesque";
+  letter-spacing: 10px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* .footerSection .fPart3{
+  width: 100%;
+  height: 10%;
+
+} */

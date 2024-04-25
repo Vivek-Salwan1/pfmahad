@@ -1,0 +1,88 @@
+
+
+.tabsSection {
+    width: 90%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: auto;
+    background: url(../images/6tabbg.png) center/100% auto; /* Background image centered horizontally, 100% width, auto height */
+   
+
+}
+
+.tabAnimation{
+    animation: zoomIn 3s ease forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        background-size: 70% auto;
+    }
+  
+    to {
+        background-size: 100% auto;
+    }
+  }
+
+
+
+.allTabs {
+    width: 70%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 50px; 
+}
+
+
+
+.tab {
+    width: 200px;
+    height: 140px;
+    /* border: 1px solid black; */
+    background: rgba(255, 255, 255, 0.79);
+    border-radius: 10px;
+    box-shadow: 0 3px 2px #4543433b;
+    transition: transform 2s;
+}
+
+.tab:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tabPart1{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid black; */
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.tabPart1 img{
+    width: 103px;
+    height: 86px;
+}
+
+.tabPart2{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+
+}
+
+.tabPart2 h3{
+    text-align: center;
+    font-weight: bold;
+
+}
+.tabPart2 h4{
+    text-align: center;
+    font-weight: bold;
+
+}
+
