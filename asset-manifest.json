@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Vivek-Salwan1/pfmahad.git/static/css/main.d78bccaa.css",
+    "main.js": "/Vivek-Salwan1/pfmahad.git/static/js/main.9723a725.js",
+    "static/media/ftrophy.webm": "/Vivek-Salwan1/pfmahad.git/static/media/ftrophy.f11231d0a7e7ecafb2e4.webm",
+    "static/media/blur.png": "/Vivek-Salwan1/pfmahad.git/static/media/blur.5cfb2cc1be293d921bd0.png",
+    "static/media/6tabbg.png": "/Vivek-Salwan1/pfmahad.git/static/media/6tabbg.4165bd184be80a951dc1.png",
+    "static/media/g1.png": "/Vivek-Salwan1/pfmahad.git/static/media/g1.9958afdeabcc3970d34a.png",
+    "static/media/stage.png": "/Vivek-Salwan1/pfmahad.git/static/media/stage.7f83af9f84947b54dc90.png",
+    "static/media/SponserPatti.png": "/Vivek-Salwan1/pfmahad.git/static/media/SponserPatti.d5ec069b42f3ca1eadd3.png",
+    "static/media/g2.png": "/Vivek-Salwan1/pfmahad.git/static/media/g2.735cd1ea2698960c0ee3.png",
+    "static/media/fLogo.png": "/Vivek-Salwan1/pfmahad.git/static/media/fLogo.f0bcb9699eba390fc7a8.png",
+    "static/media/logoPF.png": "/Vivek-Salwan1/pfmahad.git/static/media/logoPF.f0bcb9699eba390fc7a8.png",
+    "static/media/feedbackBg.png": "/Vivek-Salwan1/pfmahad.git/static/media/feedbackBg.07469f6decb0e9a76a1f.png",
+    "static/media/login.png": "/Vivek-Salwan1/pfmahad.git/static/media/login.bd36cd41de743d3adfdc.png",
+    "index.html": "/Vivek-Salwan1/pfmahad.git/index.html",
+    "main.d78bccaa.css.map": "/Vivek-Salwan1/pfmahad.git/static/css/main.d78bccaa.css.map",
+    "main.9723a725.js.map": "/Vivek-Salwan1/pfmahad.git/static/js/main.9723a725.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d78bccaa.css",
+    "static/js/main.9723a725.js"
+  ]
+}
